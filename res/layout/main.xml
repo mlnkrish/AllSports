@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="4"
+    >
+
+<Button
+    android:id="@+id/button_send"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cricket"
+    android:gravity="center"
+    android:background="@drawable/home_button"
+    style="@style/MenuItem"
+    android:layout_weight="1"
+    android:onClick="launchCricket"
+    />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/soccer"
+    android:gravity="center"
+    android:background="@drawable/home_button"
+    style="@style/MenuItem"
+    android:layout_weight="1"
+    />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tennis"
+    android:gravity="center"
+    android:background="@drawable/home_button"
+    style="@style/MenuItem"
+    android:layout_weight="1"
+    />
+
+
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/f1"
+    android:gravity="center"
+    android:background="@drawable/home_button"
+    style="@style/MenuItem"
+    android:layout_weight="1"
+    />
+
+</LinearLayout>
+

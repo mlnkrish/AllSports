@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllSports</string>
+
+    <string name="cricket">Cricket</string>
+    <string name="ipl">IPL</string>
+    <string name="odi">ODI</string>
+    <string name="test">Test</string>
+    <string name="t20">T-20</string>
+
+    <string name="soccer">Soccer</string>
+    <string name="tennis">Tennis</string>
+    <string name="f1">F1</string>
+</resources>
