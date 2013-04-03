@@ -44,6 +44,7 @@ jsdom.env({
                     who = $(infos[1])
                 }
                 
+                var stadium = $(infos[1]).html().split("<br />")[1].trim()
                 var match = $($(who).find('b')).html().split('-')[0].trim()
                 var teams = $($(who).find('b')).html().split('-')[1].trim()
                 var team1 = teams.split(' v ')[0].trim()
@@ -63,6 +64,7 @@ jsdom.env({
                     match: match.toLowerCase(),
                     team1: team1.toLowerCase(),
                     team2: team2.toLowerCase(),
+                    where: stadium,
                     matchId: matchId
                 }
 
